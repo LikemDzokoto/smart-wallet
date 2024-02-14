@@ -3,10 +3,11 @@
   max-width: 1440px;
   padding: 0 1rem;
   margin: 0 auto;
+  text-align: center;
 }
 
 .gradientText0 {
-  background: -webkit-linear-gradient(#bfa3da, #84309c, #c735b0);
+  background: -webkit-linear-gradient(#bfa3da, #49db5d, #c7353c);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -42,7 +43,8 @@
 
 .title {
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
+  text-align: center ;
 }
 
 .title,
