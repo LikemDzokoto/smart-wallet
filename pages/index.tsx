@@ -3,8 +3,6 @@ import styles from "../styles/Home.module.css";
 
 import { NextPage } from "next";
 import {
-  ConnectWallet,
-  embeddedWallet,
   useAddress,
   useConnectionStatus,
   useDisconnect,
@@ -12,7 +10,7 @@ import {
   useWallet
 } from "@thirdweb-dev/react";
 import {useEffect, useState} from 'react';
-import { init } from "next/dist/compiled/webpack/webpack";
+
 
 
 const Home: NextPage = () => {
@@ -181,8 +179,33 @@ const EmailLogin = () =>{
         </a>
       </>
   
-    )
-   }
+    );
+   };
+
+   return(
+    <>
+    <GoogleLoginButton/>
+    <button className={styles.button} onClick={handleEmailClick}>
+
+    <svg
+          className=" h-5 w-5 mr-2"
+          fill="none"
+          height="24"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect height="16" rx="2" width="20" x="2" y="4" />
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+        </svg>
+        Email Sign-In
+    </button>
+    </>
+   )
 
 
    };
