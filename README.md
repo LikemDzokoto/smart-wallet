@@ -1,27 +1,9 @@
-## Getting Started
+##Smart Wallet Demo 
+This is  a smart wallet demo that allows users to sign up with their 
 
-Create a project using this example:
 
-```bash
-npx thirdweb create --template next-typescript-starter
-```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
-
-## Environment Variables
-
-To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
-
-## Deploy to IPFS
-
-Deploy a copy of your application to IPFS using the following command:
-
-```bash
-yarn deploy
-```
 
 ## Learn More
 
@@ -35,6 +17,3 @@ To learn more about thirdweb and Next.js, take a look at the following resources
 
 You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
 
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
