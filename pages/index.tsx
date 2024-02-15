@@ -153,13 +153,12 @@ const EmailLogin = () =>{
         <p>Back</p>
       </a>
       </>
-    )
+    );
    }
-   if(state =="send_email"){
-    return 
-      <div className={styles.spinner}/>
-      
-   }
+   
+    if (state === "send_email") {
+      return <div className={styles.spinner} />;
+    }
 
    if(state=="email_verified"){
     return( 
