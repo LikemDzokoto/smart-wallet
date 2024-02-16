@@ -1,4 +1,3 @@
-
 import styles from "../styles/Home.module.css";
 
 import { NextPage } from "next";
@@ -163,10 +162,10 @@ const EmailLogin = () =>{
    if(state=="email_verified"){
     return( 
     <>
-    <p>Enter verification code sent to your email</p>
+    <p>Enter One Time Passcode sent to your passowrd </p>
     <input
           className={styles.input}
-          placeholder="Enter verification code"
+          placeholder="Enter OTP code"
           value={verificationCode}
           onChange={(e) => setVerificationCode(e.target.value)}
         />
