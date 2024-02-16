@@ -162,7 +162,7 @@ const EmailLogin = () =>{
    if(state=="email_verified"){
     return( 
     <>
-    <p>Enter One Time Passcode sent to your passowrd </p>
+    <p>Enter One Time Passcode sent to your Email </p>
     <input
           className={styles.input}
           placeholder="Enter OTP code"
